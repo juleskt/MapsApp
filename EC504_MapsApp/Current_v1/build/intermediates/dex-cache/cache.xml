@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\Julian\Desktop\Android\Current_v1\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-safetynet\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="1a6411087ab88ce5542f593e63a2752b6b0d6f1a">
+        <dex dex="C:\Users\Julian\Desktop\Android\Current_v1\app\build\intermediates\pre-dexed\debug\classes-80b7af356a6058f881d614e1d17e1cb32658b4b7.jar" />
+    </item>
+    <item
+        jar="C:\Users\Julian\Desktop\Android\Current_v1\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appinvite\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="63ec6e9f4fe5482a7447d0f3091b8e543a02554c">
+        <dex dex="C:\Users\Julian\Desktop\Android\Current_v1\app\build\intermediates\pre-dexed\debug\classes-ce1fe5a1ef8dcbf6f918b4aa69ff1bb3e72df1b8.jar" />
+    </item>
+    <item
+        jar="C:\Users\Julian\Desktop\Android\Current_v1\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="8d736fefa22d896e84a268354b3ed48a42663150">
+        <dex dex="C:\Users\Julian\Desktop\Android\Current_v1\app\build\intermediates\pre-dexed\debug\classes-b69b57f07859932d359ef218de5a57de43170fee.jar" />
+    </item>
+    <item
+        jar="C:\Users\Julian\Desktop\Android\Current_v1\app\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\22.0.0\jars\libs\internal_impl-22.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="ba3df4eb0a630d7de294f0e48d3f9267d279b784">
+        <dex dex="C:\Users\Julian\Desktop\Android\Current_v1\app\build\intermediates\pre-dexed\debug\internal_impl-22.0.0-fe78e8946199458ee3158b2a7909640470c8b5f3.jar" />
+    </item>
+    <item
+        jar="C:\Users\Julian\Desktop\Android\Current_v1\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appstate\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="68c140702c7242d914655bcb3164d9e8c45b84cb">
+        <dex dex="C:\Users\Julian\Desktop\Android\Current_v1\app\build\intermediates\pre-dexed\debug\classes-22c9f4ab7a05e60bdbaf9b3b596ebed3a14afd59.jar" />
+    </item>
+    <item
+        jar="C:\Users\Julian\Desktop\Android\Current_v1\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="f02127a85abd52a2cd526d4c2409f21969f80ee8">
+        <dex dex="C:\Users\Julian\Desktop\Android\Current_v1\app\build\intermediates\pre-dexed\debug\classes-e25e468b668c4887a09d953f90d9ddec30bdfab9.jar" />
+    </item>
+    <item
+        jar="C:\Users\Julian\Desktop\Android\Current_v1\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-nearby\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="6440e5e5cfe368f9bff3c537fb8988048069cb33">
+        <dex dex="C:\Users\Julian\Desktop\Android\Current_v1\app\build\intermediates\pre-dexed\debug\classes-842d5515b1f6a59834369f324af86263bfc798a0.jar" />
+    </item>
+    <item
+        jar="C:\Users\Julian\Desktop\Android\Current_v1\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-panorama\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="ba207be21987c11b37d9f8faa08ed6e722569f30">
+        <dex dex="C:\Users\Julian\Desktop\Android\Current_v1\app\build\intermediates\pre-dexed\debug\classes-d431f0d0985d0f08cdd07a693260c0f6b7698fa9.jar" />
+    </item>
+    <item
+        jar="C:\Users\Julian\Desktop\Android\Current_v1\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="d84409890828e07d344a3b9b1da545dba9897b51">
+        <dex dex="C:\Users\Julian\Desktop\Android\Current_v1\app\build\intermediates\pre-dexed\debug\classes-5b2154b228f83d816e1eeed911b98284d129b5c4.jar" />
+    </item>
+    <item
+        jar="C:\Users\Julian\AppData\Local\Android\sdk1\extras\android\m2repository\com\android\support\support-annotations\22.0.0\support-annotations-22.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="685d0b2c590447e85284ed84712cb363ba04eff8">
+        <dex dex="C:\Users\Julian\Desktop\Android\Current_v1\app\build\intermediates\pre-dexed\debug\support-annotations-22.0.0-4a7702bf402abe87f29c7e21c9f5ab81510d377d.jar" />
+    </item>
+    <item
+        jar="C:\Users\Julian\Desktop\Android\Current_v1\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-plus\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="272bc5d7063f24bc3a33ea1d318cde8f31f5ec4c">
+        <dex dex="C:\Users\Julian\Desktop\Android\Current_v1\app\build\intermediates\pre-dexed\debug\classes-3ea7d247a14496272161c81e525163ed283b97bc.jar" />
+    </item>
+    <item
+        jar="C:\Users\Julian\Desktop\Android\Current_v1\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-fitness\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="a172852a35ff919e85b9b7f14bbc15c5bee25520">
+        <dex dex="C:\Users\Julian\Desktop\Android\Current_v1\app\build\intermediates\pre-dexed\debug\classes-e190d4cdfea41807937cf96975fee410b67f3b27.jar" />
+    </item>
+    <item
+        jar="C:\Users\Julian\Desktop\Android\Current_v1\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-cast\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="8e3a972f28b8bae817e382257ba177a31bcadbbc">
+        <dex dex="C:\Users\Julian\Desktop\Android\Current_v1\app\build\intermediates\pre-dexed\debug\classes-4161883952d4f61e1eb748a4948e4b5687d1fdd6.jar" />
+    </item>
+    <item
+        jar="C:\Users\Julian\Desktop\Android\Current_v1\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="e7b35244f50663b3f8d150714bca9ecd7a290da1">
+        <dex dex="C:\Users\Julian\Desktop\Android\Current_v1\app\build\intermediates\pre-dexed\debug\classes-ae0ca0379fa2c5e80e1a652dbbb0383f2e9137dd.jar" />
+    </item>
+    <item
+        jar="C:\Users\Julian\Desktop\Android\Current_v1\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="1e98ef3f124bb7a11f8575f9ff5dfea330b61b6f">
+        <dex dex="C:\Users\Julian\Desktop\Android\Current_v1\app\build\intermediates\pre-dexed\debug\classes-5060de74e064f12c6eb8cb4ac78666352d213146.jar" />
+    </item>
+    <item
+        jar="C:\Users\Julian\Desktop\Android\Current_v1\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-games\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="02bac2dc792d78241077861566f2c82da955e7fa">
+        <dex dex="C:\Users\Julian\Desktop\Android\Current_v1\app\build\intermediates\pre-dexed\debug\classes-e7caffe064cc1711ae0bb2a6d3bc4a447853207c.jar" />
+    </item>
+    <item
+        jar="C:\Users\Julian\Desktop\Android\Current_v1\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-drive\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="f44d03c138cb6488fdbaa65e3a7e5878861a56d8">
+        <dex dex="C:\Users\Julian\Desktop\Android\Current_v1\app\build\intermediates\pre-dexed\debug\classes-1833b9503bd12caf1eb6335ce7fecdc228fbf1d0.jar" />
+    </item>
+    <item
+        jar="C:\Users\Julian\Desktop\Android\Current_v1\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\jars\libs\internal_impl-22.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="b5b92f469d515a13d778900f6d50c03d12f35504">
+        <dex dex="C:\Users\Julian\Desktop\Android\Current_v1\app\build\intermediates\pre-dexed\debug\internal_impl-22.0.0-277302534fe4a9eb1e979a466af7a3a411bf272d.jar" />
+    </item>
+    <item
+        jar="C:\Users\Julian\Desktop\Android\Current_v1\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="06a42becc33232ec0ee125161da68c1829c9f8fd">
+        <dex dex="C:\Users\Julian\Desktop\Android\Current_v1\app\build\intermediates\pre-dexed\debug\classes-70fdd603936740f5a99c9cb7cb38a2494a00cf7f.jar" />
+    </item>
+    <item
+        jar="C:\Users\Julian\Desktop\Android\Current_v1\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wearable\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="69dd177337ead693c408c8dddc9546bb6f1244fa">
+        <dex dex="C:\Users\Julian\Desktop\Android\Current_v1\app\build\intermediates\pre-dexed\debug\classes-1808182e440fd7d8e1d621c3ee7810424fe357b8.jar" />
+    </item>
+    <item
+        jar="C:\Users\Julian\Desktop\Android\Current_v1\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="29ebc7e04d877062317c8cc0e68b20f0c1fcda66">
+        <dex dex="C:\Users\Julian\Desktop\Android\Current_v1\app\build\intermediates\pre-dexed\debug\classes-03f278d01dcf840f728ce795c06faec24a12306e.jar" />
+    </item>
+    <item
+        jar="C:\Users\Julian\Desktop\Android\Current_v1\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wallet\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="6836d188602ec5382d1967c58b00960eb8ff8773">
+        <dex dex="C:\Users\Julian\Desktop\Android\Current_v1\app\build\intermediates\pre-dexed\debug\classes-51700de89b14d1b5c1effba8e97fb3a686e0461b.jar" />
+    </item>
+    <item
+        jar="C:\Users\Julian\Desktop\Android\Current_v1\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="a78183f30e769a98ab4820794f597763088d3065">
+        <dex dex="C:\Users\Julian\Desktop\Android\Current_v1\app\build\intermediates\pre-dexed\debug\classes-8975d2a5f673425ec10a1f482391621e45253a43.jar" />
+    </item>
+    <item
+        jar="C:\Users\Julian\Desktop\Android\Current_v1\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4e86306289ace4aa0cfec44a05ed2b410d36989d">
+        <dex dex="C:\Users\Julian\Desktop\Android\Current_v1\app\build\intermediates\pre-dexed\debug\classes-4b861c5ac58869242ecc9d6522b700034c6387b3.jar" />
+    </item>
+    <item
+        jar="C:\Users\Julian\Desktop\Android\Current_v1\app\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\22.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="a1372c17fccacca753d3951d3ad820571cbce075">
+        <dex dex="C:\Users\Julian\Desktop\Android\Current_v1\app\build\intermediates\pre-dexed\debug\classes-bc9dae6ce56c56622098eaad6315b12c977e1ecb.jar" />
+    </item>
+    <item
+        jar="C:\Users\Julian\Desktop\Android\Current_v1\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-identity\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="d405025c600055237c171a0bbabaa49d69696573">
+        <dex dex="C:\Users\Julian\Desktop\Android\Current_v1\app\build\intermediates\pre-dexed\debug\classes-0d0f3c2dd0d7f785b86201cdd20b572046f2b851.jar" />
+    </item>
+
+</items>

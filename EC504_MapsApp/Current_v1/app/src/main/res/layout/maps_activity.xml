@@ -1,0 +1,36 @@
+<android.support.v4.widget.DrawerLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:id="@+id/drawer_layout"
+android:layout_width="match_parent"
+android:layout_height="match_parent">
+<!-- The main content view -->
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/location"
+        android:id="@+id/map"
+        tools:context=".MapsActivity"
+        android:name="com.google.android.gms.maps.SupportMapFragment" />
+<!-- The navigation drawer -->
+    <ListView android:id="@+id/navList"
+          android:layout_width="240dp"
+          android:layout_height="match_parent"
+          android:layout_gravity="start"
+          android:choiceMode="singleChoice"
+          android:divider="@android:color/transparent"
+          android:dividerHeight="3dp"
+          android:background="#D6D6D6"
+          android:fastScrollEnabled="true"
+          android:smoothScrollbar="true"/>
+         <!-- android:background="#ff30ff72"/> -->
+
+    <TextView
+        android:id="@+id/location"
+        android:text="@string/Coords"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#343434"
+        android:textSize="15dip"
+        android:layout_alignParentTop="true" />
+</android.support.v4.widget.DrawerLayout>
