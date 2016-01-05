@@ -62,10 +62,10 @@ public class MyServer
    			e.printStackTrace();
   		}
   
- 		 while(true)
-  		 {
-    		try 
-   			{
+		while(true)
+		{
+			try 
+			{
 			    socket = serverSocket.accept();
 
 			    dataInputStream = new DataInputStream(socket.getInputStream());
@@ -79,23 +79,21 @@ public class MyServer
 
 			    if(split.length == 2)
 			    {
-			    	System.out.println("Query: Nearest 10");
-			    	double latt = Double.parseDouble(split[0]);
+					System.out.println("Query: Nearest 10");
+					double latt = Double.parseDouble(split[0]);
 					double lngg = Double.parseDouble(split[1]);
 
 					test = new Location(latt,lngg);
 					ArrayList<IPoint> tenn = tree.nearest10(test);
 					String toSend = "";
-		
+
 					for (IPoint a : tenn) 
 					{
 						toSend += a.toString() + " ";
 					}
 					
-				System.out.println(tenn.size());
-
+					System.out.println(tenn.size());
 				    dataOutputStream.writeUTF(toSend);
-
 				}
 				else
 				{
@@ -120,29 +118,29 @@ public class MyServer
 					}
 					
 					System.out.println(inrange.size());
-				    dataOutputStream.writeUTF(toSend);
+					dataOutputStream.writeUTF(toSend);
 				}
  			} 
    			catch (IOException e) 
    			{
-    			// TODO Auto-generated catch block
-    			e.printStackTrace();
+				// TODO Auto-generated catch block
+				e.printStackTrace();
    			}
    			finally
    			{
-    			if( socket!= null)
-    			{
-     				try 
-     				{
-      					socket.close();
-      					System.out.println("Closed\n");
-     				} 
-     				catch (IOException e) 
-     				{
-      					// TODO Auto-generated catch block
-      					e.printStackTrace();
-     				}
-    			}
+				if( socket!= null)
+				{
+					try 
+					{
+						socket.close();
+						System.out.println("Closed\n");
+					} 
+					catch (IOException e) 
+					{
+						// TODO Auto-generated catch block
+						e.printStackTrace();
+					}
+				}
     
     			if( dataInputStream!= null)
     			{
@@ -169,7 +167,7 @@ public class MyServer
       					e.printStackTrace();
      				}
     			}
-   			}
+			}
   		}
  	}
 }
