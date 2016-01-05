@@ -1,7 +1,7 @@
-﻿List of Files and Purpose:
+﻿#List of Files and Purpose
 
 
-The following may be found inside server.zip
+The following may be found inside server.zip:
 
 
 BalancedData.java
@@ -48,14 +48,14 @@ locations.txt
 This file is parsed and sorted version of landmarks.txt to optimize insertion.        
 
 
-The following may be found inside the Android Project within GUI.zip
+The following may be found inside the Android Project within GUI.zip:
 
 
 MapsActivity.java && MapsActivity.xml
 These files are the core behind the Android Application. The main view consists of a Google Maps Fragment that is navigable by finger. A short/long tap onto the map will call an asyncTask that will send a query to the server by sending proper coordinates. The .java also implements Java’s native socket libraries. Due to the limitations of phone hardware and maps API calls, the speed at which the points are displayed do not necessarily reflect how quickly the KDTree operates. Please see MyServer.java for enhanced metric analysis.
 
 
-Running things
+#Running things
         
 Everything needed to run the server can be found inside server.zip. It contains all the .java files for the K-D Tree and the java socket server implementation. It is possible to run the server as a command line application. After extracting the contents of server.zip, you may compile all the .java files together by using javac *.java and running the server by using java MyServer. The KD Tree will be built and the server will begin listening for incoming connections and writing “listening :8888” on the console (it is using port 8888). Every time a query comes in, the server will display the incoming IP, the type of query requested, and the number of points returned. Due to the constraints of the TCP send, UTF-8 size, and server implementation, any query that contains more than 64KB in data will crash the app (about 1.5k points) but the server will continue to run, it has nothing to do with the KDTree implementation. In fact, you can still see the number of returned points despite the thrown exception and app crash.
 
