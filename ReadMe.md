@@ -1,14 +1,14 @@
 ﻿#List of Files and Purpose
 
 
-The following may be found inside server.zip:
+##The following may be found inside server.zip:
 
 
-BalancedData.java
+###BalancedData.java
 This file contains a class to sort the initial data on alternating axises. Instantiate this class with two parameters, a filename and fileOutname, which will read the data in filename, continuously sort and obtain the median on alternating axises, and write this data in fileOutname. This should only be used once per initial data. This file also removes any locations of (0 , 0) which were found in the data. 
 
 
-IPoint.java
+###IPoint.java
         An interface to describe a basic Cartesian point.
 
 
