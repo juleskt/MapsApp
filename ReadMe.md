@@ -1,34 +1,34 @@
 ﻿#List of Files and Purpose
 
 
-##The following may be found inside server.zip:
+###The following may be found inside server.zip:
 
 
-###BalancedData.java
+######BalancedData.java
 This file contains a class to sort the initial data on alternating axises. Instantiate this class with two parameters, a filename and fileOutname, which will read the data in filename, continuously sort and obtain the median on alternating axises, and write this data in fileOutname. This should only be used once per initial data. This file also removes any locations of (0 , 0) which were found in the data. 
 
 
-###IPoint.java
-        An interface to describe a basic Cartesian point.
+######IPoint.java
+An interface to describe a basic Cartesian point.
 
 
-Location.java
+######Location.java
 Stores latitude, longitude, state, and county of each location found in the reference points. Implements Ipoint.java.
 
 
-Node.java
+######Node.java
 Represents a general node in the KD-tree. Stores the region in which it splits, the children nodes below and above it (ie, left child and right child), and functions to aid nearest10 and range query. 
 
 
-VerticalNode.java and HorizontalNode.java
+######VerticalNode.java and HorizontalNode.java
 These two classes are extensions of Node.java. VerticalNodes split the plane vertically and HorizontalNodes split the plane vertically. These are placed in the TwoDTree.
 
 
-Rectangle.java
+######Rectangle.java
 Represents a rectangle in the plane. Main functions are whether a point lies in the rectangle and if a rectangle is contained in another rectangle.
 
 
-TwoDTree.java
+######TwoDTree.java
 This class is the actual implementation of the KDTree (where k=2). It contains the following main operations:
 * Insert(point): Insert an IPoint into the tree. This function walks down the tree, alternating axises to search for where the point belongs, placing it in the correct place.
 * Parent(point): Get the parent of an IPoint in the tree.
@@ -38,20 +38,20 @@ This class is the actual implementation of the KDTree (where k=2). It contains t
 * Search(rectangle): Gets all the points found in the rectangle.
 
 
-MySever.java
+######MySever.java
 This file contains the actual running server and live KDTree implementation. It is a simple   TCP Socket server implemented using Java’s native socket libraries that handles one query at a time. When a query is made, it will output connection details on the console. It parses the query and determines whether or not the client is asking for a 10 - neighbor or a rectangular bounds query. It then runs the necessary search operations on the KDTree and returns the result to the client. The server prints to the console the amount of returned points on the console before sending the query. You can accurately see how quickly the KDTree operations occur by watching the console output.
 
 
-landmarks.txt
+######landmarks.txt
         This file is the original extracted txt file from the blackbboard.
-locations.txt
+######locations.txt
 This file is parsed and sorted version of landmarks.txt to optimize insertion.        
 
 
-The following may be found inside the Android Project within GUI.zip:
+###The following may be found inside the Android Project within GUI.zip:
 
 
-MapsActivity.java && MapsActivity.xml
+######MapsActivity.java && MapsActivity.xml
 These files are the core behind the Android Application. The main view consists of a Google Maps Fragment that is navigable by finger. A short/long tap onto the map will call an asyncTask that will send a query to the server by sending proper coordinates. The .java also implements Java’s native socket libraries. Due to the limitations of phone hardware and maps API calls, the speed at which the points are displayed do not necessarily reflect how quickly the KDTree operates. Please see MyServer.java for enhanced metric analysis.
 
 
