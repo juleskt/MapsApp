@@ -31,24 +31,24 @@ public class MyServer
 		double lng;
 		while (sc.hasNextLine()) 
 		{
-				String input = sc.nextLine();
-				String split[] = input.split("\\s+");
+			String input = sc.nextLine();
+			String split[] = input.split("\\s+");
 
-				int len = split.length;
+			int len = split.length;
 
-				state = split[0];
+			state = split[0];
 
-				for(int x = 1; x < len-2; x++)
-				{
-					county+= split[x];
-				}
-				
-				lat = Double.parseDouble(split[len-2]);
-				lng = Double.parseDouble(split[len-1]);		
+			for(int x = 1; x < len-2; x++)
+			{
+				county+= split[x];
+			}
+			
+			lat = Double.parseDouble(split[len-2]);
+			lng = Double.parseDouble(split[len-1]);		
 
-				test = new Location(state, county, lat,lng);
-                                tree.insert(test);
-				county = "";
+			test = new Location(state, county, lat,lng);
+                            tree.insert(test);
+			county = "";
 		}
   
   		try 
